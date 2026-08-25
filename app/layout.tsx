@@ -14,10 +14,29 @@ const raleway = Raleway({
   display: "swap",
 });
 
+const title = "Mateusz Kierat – Trening motoryczny i rehabilitacja";
+const description =
+  "Trening motoryczny i rehabilitacja online pod opieką trenera i fizjoterapeuty w jednym. Zbuduj ciało odporne na kontuzje.";
+
 export const metadata: Metadata = {
-  title: "Mateusz Kierat – Trening motoryczny i rehabilitacja",
-  description:
-    "Trening motoryczny i rehabilitacja online pod opieką trenera i fizjoterapeuty w jednym. Zbuduj ciało odporne na kontuzje.",
+  metadataBase: new URL("https://landing-page-blush-zeta-99.vercel.app"),
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    url: "/",
+    siteName: "Mateusz Kierat",
+    images: ["/testimonials/szymon-1.jpg"],
+    locale: "pl_PL",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/testimonials/szymon-1.jpg"],
+  },
 };
 
 export default function RootLayout({

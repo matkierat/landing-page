@@ -67,6 +67,7 @@ export default function SocialProof() {
                         src={photo}
                         alt={`${story.name} w akcji`}
                         fill
+                        sizes="(max-width: 640px) 45vw, (max-width: 1024px) 22vw, 15vw"
                         className="object-cover"
                       />
                     </div>
