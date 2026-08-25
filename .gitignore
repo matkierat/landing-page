@@ -1,0 +1,41 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# local tooling config (not needed for the app or deployment)
+/.claude/
+/dev.sh
+
+# unused source uploads (raw originals, superseded by copies actually used in code)
+/public/1FFA82AC-2B28-4A38-8796-286358636C09.jpg
+/public/IMG_9956.mov
+/public/hero/Gemini_Generated_Image_9rn33i9rn33i9rn3-kopia.png
+/public/hero/Gemini_Generated_Image_ybvo47ybvo47ybvo-kopia.png
+/public/hero/logo_instagram-kopia.png
+/public/hero/logo_negatyw_facebook-kopia.png
+/public/hero/mobilnosc.mov
+/public/hero/silownia.jpg
