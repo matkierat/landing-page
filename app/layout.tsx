@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description,
     url: "/",
     siteName: "Mateusz Kierat",
-    images: ["/testimonials/szymon-1.jpg"],
+    images: ["/Ja.png"],
     locale: "pl_PL",
     type: "website",
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title,
     description,
-    images: ["/testimonials/szymon-1.jpg"],
+    images: ["/Ja.png"],
   },
 };
 
