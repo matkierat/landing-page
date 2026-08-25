@@ -3,7 +3,7 @@ import Image from "next/image";
 const stories = [
   {
     initial: "E",
-    name: "Edyta",
+    name: "Edyta Bielska",
     discipline: "Lekkoatletyka – reprezentacja Polski",
     quote:
       "Współpracuję z Mateuszem od dłuższego czasu i śmiało mogę polecić jego usługi. Zmagałam się z problemem kolana skoczka, dzięki profesjonalnemu podejściu i doborowi zestawu ćwiczeń dzisiaj mogę bić swoje rekordy na bieżni. Mateusz gasi każdy pożar, który pojawia się na drodze – mniejsza kontuzja czy przeciążenie czy jakiś inny problem związany z profesjonalnym treningiem zostaje szybko zdiagnozowany i wyleczony. Pełen profesjonalizm, duża wiedza i świetne podejście do sportowców!",
@@ -11,7 +11,7 @@ const stories = [
   },
   {
     initial: "S",
-    name: "Szymon",
+    name: "Szymon Majewski",
     discipline: "K1 – Mistrz Polski, Mistrz WAKO World Cup",
     quote:
       "Nawet podczas kontuzji ręki treningi nie musiały zostać przerwane – Mateusz tak modyfikował ćwiczenia, żebym mógł dalej robić realny progres, nie obciążając ręki. Po sezonie z nim moje największe słabości stały się najmocniejszymi atutami. Pełen profesjonalizm i świetna wiedza!",
@@ -19,7 +19,7 @@ const stories = [
   },
   {
     initial: "M",
-    name: "Marta",
+    name: "Marta Łagownik",
     discipline: "Triathlon – PRO Series",
     quote:
       "Trzy dyscypliny to trzy różne obciążenia dla ciała. Praca nad stabilizacją i mobilnością pozwoliła mi trenować na pełnych obrotach bez tego chronicznego napięcia, które wcześniej towarzyszyło mi na każdym etapie sezonu.",
@@ -27,7 +27,7 @@ const stories = [
   },
   {
     initial: "M",
-    name: "Mikołaj",
+    name: "Mikołaj Cygert",
     discipline: "BJJ – Mistrz Polski ADCC",
     quote:
       "Z Mateuszem współpracuję od 5 lat i to czysta przyjemność. Jego przekrojowa wiedza z przygotowania motorycznego pozwoliła mi bezpiecznie rozwijać się w kilku sportach – siłownia, boks, kickboxing, BJJ – zawsze z planem dopasowanym do aktualnych celów. Dzięki temu mimo sportów kontaktowych znacznie ograniczyłem kontuzje na macie. Efekt? Szczytowa forma dokładnie na dzień zawodów ADCC – które wygrałem.",

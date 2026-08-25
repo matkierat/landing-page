@@ -15,8 +15,9 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Moja Nowa Strona",
-  description: "Strona stworzona w Next.js i Tailwind CSS.",
+  title: "Mateusz Kierat – Trening motoryczny i rehabilitacja",
+  description:
+    "Trening motoryczny i rehabilitacja online pod opieką trenera i fizjoterapeuty w jednym. Zbuduj ciało odporne na kontuzje.",
 };
 
 export default function RootLayout({
