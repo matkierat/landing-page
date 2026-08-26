@@ -17,7 +17,7 @@ const benefits = [
   {
     title: "Stała kontrola techniki i regeneracji",
     description:
-      "Wysyłasz nagrania ze swoich serii, otrzymujesz szybką korektę bólów i wzorców ruchowych. Chronisz kręgosłup przed skutkami 8 godzin pracy przy biurku.",
+      "Nagrywasz swoje serie, wysyłasz mi – ja poprawiam wzorce ruchowe i co tydzień dostajesz raport z postępów. Efekt? Twój kręgosłup nie płaci ceny za 8 godzin przy biurku.",
   },
 ];
 

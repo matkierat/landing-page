@@ -4,7 +4,7 @@ const stories = [
   {
     initial: "E",
     name: "Edyta Bielska",
-    discipline: "Lekkoatletyka – reprezentacja Polski",
+    discipline: "Lekkoatletyka – multimedalistka Mistrzostw Polski",
     quote:
       "Współpracuję z Mateuszem od dłuższego czasu i śmiało mogę polecić jego usługi. Zmagałam się z problemem kolana skoczka, dzięki profesjonalnemu podejściu i doborowi zestawu ćwiczeń dzisiaj mogę bić swoje rekordy na bieżni. Mateusz gasi każdy pożar, który pojawia się na drodze – mniejsza kontuzja czy przeciążenie czy jakiś inny problem związany z profesjonalnym treningiem zostaje szybko zdiagnozowany i wyleczony. Pełen profesjonalizm, duża wiedza i świetne podejście do sportowców!",
     photos: ["/testimonials/Edyta-1.jpg", "/testimonials/Edyta-2.jpg"],
@@ -12,7 +12,7 @@ const stories = [
   {
     initial: "S",
     name: "Szymon Majewski",
-    discipline: "K1 – Mistrz Polski, Mistrz WAKO World Cup",
+    discipline: "K1 – Vice Mistrz Świata WAKO i zdobywca Pucharu Świata WAKO",
     quote:
       "Nawet podczas kontuzji ręki treningi nie musiały zostać przerwane – Mateusz tak modyfikował ćwiczenia, żebym mógł dalej robić realny progres, nie obciążając ręki. Po sezonie z nim moje największe słabości stały się najmocniejszymi atutami. Pełen profesjonalizm i świetna wiedza!",
     photos: ["/testimonials/szymon-1.jpg", "/testimonials/szymon-2.jpg"],
