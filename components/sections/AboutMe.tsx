@@ -74,13 +74,13 @@ export default function AboutMe() {
           <p className="mb-6 text-lg leading-relaxed text-slate-300">
             Połączyłem wiedzę fizjoterapeutyczną z praktyką trenera
             przygotowania motorycznego. Nie sprzedaję gotowców z internetu
-            ani &bdquo;magicznych metod&rdquo; na odchudzanie – patrzę na
+            ani &bdquo;magicznych metod&rdquo; na odchudzanie. Patrzę na
             dane, mechanikę Twojego ciała i to, jak faktycznie wygląda Twój
             dzień.
           </p>
 
           <p className="text-lg leading-relaxed text-slate-300">
-            Dwie operacje, kilka kontuzji, sporo błędów po drodze – sam
+            Dwie operacje, kilka kontuzji, sporo błędów po drodze. Sam
             przeszedłem tę drogę, więc wiem, jak wygląda powrót do sportu po
             urazach i jak wyciągnąć organizm z ciągłego zmęczenia przy
             siedzącym trybie życia. Dostajesz proste narzędzia, które
@@ -99,7 +99,7 @@ export default function AboutMe() {
           {courses.map((course) => (
             <div
               key={course.title}
-              className="rounded-lg border border-slate-700 bg-dark-soft p-5"
+              className="rounded-lg bg-dark-soft p-5 shadow-md shadow-black/20 transition-colors hover:bg-white/[0.06]"
             >
               <p className="font-semibold text-white">{course.title}</p>
               <p className="mt-1 text-sm text-slate-400">

@@ -29,13 +29,12 @@ export default function ProblemSolution() {
             </span>
             <p className="mb-2 text-2xl font-bold text-slate-900">6:00.</p>
             <p className="leading-relaxed text-slate-700">
-              Budzik dzwoni, plecy milczą. Nie dlatego, że masz farta – bo
-              ktoś w końcu zajął się tym, co naprawdę szwankowało. Trening
-              siłowy robi swoje: więcej dynamiki na macie, lepsze tempo w
-              trasie, brak powodów żeby znowu jechać do fizjo. Bez
-              zgadywania, bez &bdquo;chyba tak będzie dobrze&rdquo; – plan
-              wynika z tego, jak się faktycznie ruszasz, nie z poradnika z
-              internetu.
+              Budzik dzwoni, plecy milczą. Nie dlatego, że masz farta. Ktoś w
+              końcu zajął się tym, co naprawdę szwankowało. Trening siłowy
+              robi swoje: więcej dynamiki na macie, lepsze tempo w trasie,
+              brak powodów żeby znowu jechać do fizjo. Bez zgadywania, bez
+              &bdquo;chyba tak będzie dobrze&rdquo;. Plan wynika z tego, jak
+              się faktycznie ruszasz, nie z poradnika z internetu.
             </p>
           </div>
         </div>

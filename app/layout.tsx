@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Raleway } from "next/font/google";
+import { Manrope, Raleway } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const manrope = Manrope({
   subsets: ["latin", "latin-ext"],
   variable: "--font-inter",
   display: "swap",
@@ -45,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pl" className={`${inter.variable} ${raleway.variable}`}>
+    <html lang="pl" className={`${manrope.variable} ${raleway.variable}`}>
       <body>{children}</body>
     </html>
   );

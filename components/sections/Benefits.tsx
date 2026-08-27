@@ -17,7 +17,7 @@ const benefits = [
   {
     title: "Stała kontrola techniki i regeneracji",
     description:
-      "Nagrywasz swoje serie, wysyłasz mi – ja poprawiam wzorce ruchowe i co tydzień dostajesz raport z postępów. Efekt? Twój kręgosłup nie płaci ceny za 8 godzin przy biurku.",
+      "Nagrywasz swoje serie i wysyłasz mi. Poprawiam wzorce ruchowe, a co tydzień dostajesz raport z postępów. Efekt? Twój kręgosłup nie płaci ceny za 8 godzin przy biurku.",
   },
 ];
 
@@ -33,7 +33,7 @@ export default function Benefits() {
           {benefits.map((benefit) => (
             <div
               key={benefit.title}
-              className="rounded-xl border border-slate-200 bg-white p-8 transition-shadow hover:shadow-md"
+              className="rounded-xl bg-white p-8 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-xl hover:shadow-accent/10"
             >
               <div className="mb-4 h-1 w-10 rounded-full bg-accent" />
               <h3 className="mb-3 text-xl font-bold text-slate-900">

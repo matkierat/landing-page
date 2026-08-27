@@ -6,7 +6,7 @@ const stories = [
     name: "Edyta Bielska",
     discipline: "Lekkoatletyka – multimedalistka Mistrzostw Polski",
     quote:
-      "Współpracuję z Mateuszem od dłuższego czasu i śmiało mogę polecić jego usługi. Zmagałam się z problemem kolana skoczka, dzięki profesjonalnemu podejściu i doborowi zestawu ćwiczeń dzisiaj mogę bić swoje rekordy na bieżni. Mateusz gasi każdy pożar, który pojawia się na drodze – mniejsza kontuzja czy przeciążenie czy jakiś inny problem związany z profesjonalnym treningiem zostaje szybko zdiagnozowany i wyleczony. Pełen profesjonalizm, duża wiedza i świetne podejście do sportowców!",
+      "Współpracuję z Mateuszem od dłuższego czasu i śmiało mogę polecić jego usługi. Zmagałam się z problemem kolana skoczka, dzięki profesjonalnemu podejściu i doborowi zestawu ćwiczeń dzisiaj mogę bić swoje rekordy na bieżni. Mateusz gasi każdy pożar, który pojawia się na drodze: mniejsza kontuzja, przeciążenie czy jakiś inny problem związany z profesjonalnym treningiem zostaje szybko zdiagnozowany i wyleczony. Pełen profesjonalizm, duża wiedza i świetne podejście do sportowców!",
     photos: ["/testimonials/Edyta-1.jpg", "/testimonials/Edyta-2.jpg"],
   },
   {
@@ -14,7 +14,7 @@ const stories = [
     name: "Szymon Majewski",
     discipline: "K1 – Vice Mistrz Świata WAKO i zdobywca Pucharu Świata WAKO",
     quote:
-      "Nawet podczas kontuzji ręki treningi nie musiały zostać przerwane – Mateusz tak modyfikował ćwiczenia, żebym mógł dalej robić realny progres, nie obciążając ręki. Po sezonie z nim moje największe słabości stały się najmocniejszymi atutami. Pełen profesjonalizm i świetna wiedza!",
+      "Nawet podczas kontuzji ręki treningi nie musiały zostać przerwane. Mateusz tak modyfikował ćwiczenia, żebym mógł dalej robić realny progres, nie obciążając ręki. Po sezonie z nim moje największe słabości stały się najmocniejszymi atutami. Pełen profesjonalizm i świetna wiedza!",
     photos: ["/testimonials/szymon-1.jpg", "/testimonials/szymon-2.jpg"],
   },
   {
@@ -30,7 +30,7 @@ const stories = [
     name: "Mikołaj Cygert",
     discipline: "BJJ – Mistrz Polski ADCC",
     quote:
-      "Z Mateuszem współpracuję od 5 lat i to czysta przyjemność. Jego przekrojowa wiedza z przygotowania motorycznego pozwoliła mi bezpiecznie rozwijać się w kilku sportach – siłownia, boks, kickboxing, BJJ – zawsze z planem dopasowanym do aktualnych celów. Dzięki temu mimo sportów kontaktowych znacznie ograniczyłem kontuzje na macie. Efekt? Szczytowa forma dokładnie na dzień zawodów ADCC – które wygrałem.",
+      "Z Mateuszem współpracuję od 5 lat i to czysta przyjemność. Jego przekrojowa wiedza z przygotowania motorycznego pozwoliła mi bezpiecznie rozwijać się w kilku sportach: siłownia, boks, kickboxing, BJJ, zawsze z planem dopasowanym do aktualnych celów. Dzięki temu mimo sportów kontaktowych znacznie ograniczyłem kontuzje na macie. Efekt? Szczytowa forma dokładnie na dzień zawodów ADCC, które wygrałem.",
     photos: ["/testimonials/Mikolaj-1.jpeg", "/testimonials/Mikolaj-2.jpeg"],
   },
 ];
@@ -48,19 +48,19 @@ export default function SocialProof() {
           </h2>
           <p className="leading-relaxed text-slate-400">
             Od amatorów trenujących po godzinach po reprezentantów Polski i
-            mistrzów świata – pracuję z ludźmi, dla których sprawne ciało to
+            mistrzów świata. Pracuję z ludźmi, dla których sprawne ciało to
             warunek wyników, nie dodatek.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2">
           {stories.map((story) => (
             <article
               key={story.name}
-              className="flex flex-col gap-5 rounded-xl border border-slate-700 bg-dark-soft p-8"
+              className="flex flex-col gap-5 rounded-2xl bg-dark-soft p-8 shadow-lg shadow-black/20 transition-transform duration-300 hover:-translate-y-1"
             >
               {story.photos.length > 0 && (
-                <div className="-mx-8 -mt-8 mb-2 grid grid-cols-2 gap-1 overflow-hidden rounded-t-xl">
+                <div className="-mx-8 -mt-8 mb-2 grid grid-cols-2 gap-1 overflow-hidden rounded-t-2xl">
                   {story.photos.map((photo) => (
                     <div key={photo} className="relative aspect-square">
                       <Image
@@ -84,7 +84,7 @@ export default function SocialProof() {
               </p>
 
               <div className="mt-auto flex items-center gap-3 border-t border-slate-700 pt-5">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-accent-light to-accent-dark text-base font-bold text-white">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-accent-light to-accent-dark text-base font-bold text-white">
                   {story.initial}
                 </div>
                 <div>

@@ -18,7 +18,10 @@ export default function Footer() {
           <ul className="flex items-center gap-6">
             {links.map((link) => (
               <li key={link.href}>
-                <Link href={link.href} className="transition-colors hover:text-accent">
+                <Link
+                  href={link.href}
+                  className="rounded-sm transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
+                >
                   {link.label}
                 </Link>
               </li>
@@ -30,7 +33,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
-            className="text-slate-600 transition-colors hover:text-accent"
+            className="rounded-sm text-slate-600 transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

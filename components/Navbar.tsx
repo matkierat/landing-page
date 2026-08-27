@@ -33,7 +33,7 @@ export default function Navbar() {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="text-sm font-medium text-slate-700 transition-colors hover:text-accent"
+                  className="rounded-sm text-sm font-medium text-slate-700 transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
                 >
                   {link.label}
                 </Link>
@@ -46,7 +46,7 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
-            className="text-slate-700 transition-colors hover:text-accent"
+            className="rounded-sm text-slate-700 transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
-            className="text-slate-700 transition-colors hover:text-accent"
+            className="rounded-sm text-slate-700 transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setIsOpen((prev) => !prev)}
-            className="flex h-9 w-9 items-center justify-center rounded-md border border-slate-200"
+            className="flex h-9 w-9 items-center justify-center rounded-md border border-slate-200 transition-colors active:scale-[0.96] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
             aria-label="Otwórz menu"
             aria-expanded={isOpen}
           >
@@ -109,7 +109,7 @@ export default function Navbar() {
               <Link
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="block rounded-md px-2 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 hover:text-accent"
+                className="block rounded-md px-2 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
               >
                 {link.label}
               </Link>
