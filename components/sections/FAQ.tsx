@@ -41,16 +41,19 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <div
               key={faq.question}
-              className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-2 border-t border-slate-200 py-8 first:border-t-0 first:pt-0 md:grid-cols-[3rem_1fr]"
+              className="flex gap-4 border-t border-slate-200 py-8 first:border-t-0 first:pt-0 md:gap-6"
             >
-              <span className="font-heading text-2xl font-bold text-slate-200 md:text-3xl">
+              <span className="shrink-0 font-heading text-2xl font-bold text-slate-200 md:w-12 md:text-3xl">
                 {String(index + 1).padStart(2, "0")}
               </span>
-              <h3 className="font-semibold text-slate-900 md:text-lg">
-                {faq.question}
-              </h3>
-              <span className="hidden md:block" />
-              <p className="leading-relaxed text-slate-600">{faq.answer}</p>
+              <div>
+                <h3 className="font-semibold text-slate-900 md:text-lg">
+                  {faq.question}
+                </h3>
+                <p className="mt-3 leading-relaxed text-slate-600">
+                  {faq.answer}
+                </p>
+              </div>
             </div>
           ))}
         </div>
