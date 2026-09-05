@@ -14,7 +14,7 @@ const stories = [
     name: "Szymon Majewski",
     discipline: "K1 – Vice Mistrz Świata WAKO i zdobywca Pucharu Świata WAKO",
     quote:
-      "Nawet podczas kontuzji ręki treningi nie musiały zostać przerwane. Mateusz tak modyfikował ćwiczenia, żebym mógł dalej robić realny progres, nie obciążając ręki. Po sezonie z nim moje największe słabości stały się najmocniejszymi atutami. Pełen profesjonalizm i świetna wiedza!",
+      "Wiedziałem, że pod względem siły i przygotowania motorycznego mam jeszcze duże braki, które ograniczały mnie w sporcie. Po sezonie przygotowawczym przepracowanym z Mateuszem mogę śmiało powiedzieć, że moje największe słabości stały się jednymi z moich najmocniejszych atutów. Każdy plan treningowy był rozpisany indywidualnie i dopasowany do tego, czego akurat potrzebowałem. Ogromnym plusem było też to, że nawet podczas kontuzji ręki treningi nie musiały zostać przerwane. Mateusz tak modyfikował ćwiczenia, żebym mógł dalej trenować, nie obciążając uszkodzonej ręki, a jednocześnie robić realny progres. Pełen profesjonalizm, indywidualne podejście i świetna wiedza. Z czystym sumieniem polecam każdemu.",
     photos: ["/testimonials/szymon-1.jpg", "/testimonials/szymon-2.jpg"],
   },
   {
@@ -22,7 +22,7 @@ const stories = [
     name: "Marta Łagownik",
     discipline: "Triathlon – PRO Series",
     quote:
-      "Trzy dyscypliny to trzy różne obciążenia dla ciała. Praca nad stabilizacją i mobilnością pozwoliła mi trenować na pełnych obrotach bez tego chronicznego napięcia, które wcześniej towarzyszyło mi na każdym etapie sezonu.",
+      "Współpracuję z Mateuszem od dwóch lat i czuję, że wprowadzenie regularnego i zaplanowanego treningu siłowego wprowadziło mnie na wyższy poziom ścigania się w triathlonie na dystansie Ironman. W okresie treningowym, kiedy obciążenia poza sezonem są duże, zapobiega kontuzjom i wzmacnia ciało oraz stawy do radzenia sobie z ogromnymi przeciążeniami, a w okresie startowym przygotowuje moje ciało, żeby było lekkie, dynamiczne i gotowe do walki o zwycięstwo.",
     photos: [] as string[],
   },
   {
