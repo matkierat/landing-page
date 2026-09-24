@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://landing-page-blush-zeta-99.vercel.app"),
   title,
   description,
+  other: {
+    "facebook-domain-verification": "d3euozbd2i6jkl9izdp392izpr45qy",
+  },
   openGraph: {
     title,
     description,
