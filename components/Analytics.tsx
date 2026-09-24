@@ -81,28 +81,29 @@ export default function Analytics() {
         <div
           role="dialog"
           aria-label="Zgoda na pliki cookies"
-          className="fixed inset-x-4 bottom-4 z-50 mx-auto max-w-2xl rounded-2xl bg-dark-soft p-5 text-white shadow-2xl shadow-black/40 ring-1 ring-white/10 sm:p-6"
+          className="fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-dark/95 px-4 py-2.5 text-white backdrop-blur"
         >
-          <p className="text-sm leading-relaxed text-slate-300">
-            Używam plików cookies i narzędzi analitycznych (Meta Pixel,
-            Microsoft Clarity), żeby sprawdzać, jak działa strona, i
-            dopasowywać reklamy. Uruchomię je tylko za Twoją zgodą.
-          </p>
-          <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:justify-end">
-            <button
-              type="button"
-              onClick={() => choose("denied")}
-              className="rounded-lg px-5 py-2.5 text-sm font-semibold text-slate-300 transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-light active:scale-[0.98]"
-            >
-              Odrzucam
-            </button>
-            <button
-              type="button"
-              onClick={() => choose("granted")}
-              className="rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-light focus-visible:ring-offset-2 focus-visible:ring-offset-dark-soft active:scale-[0.98]"
-            >
-              Akceptuję
-            </button>
+          <div className="mx-auto flex max-w-5xl items-center justify-between gap-3">
+            <p className="text-xs leading-snug text-slate-300">
+              Ta strona używa cookies analitycznych i reklamowych (Meta,
+              Clarity).
+            </p>
+            <div className="flex shrink-0 gap-1.5">
+              <button
+                type="button"
+                onClick={() => choose("denied")}
+                className="rounded-md px-3 py-1.5 text-xs font-semibold text-slate-300 transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-light active:scale-[0.98]"
+              >
+                Odrzucam
+              </button>
+              <button
+                type="button"
+                onClick={() => choose("granted")}
+                className="rounded-md bg-accent px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-accent-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-light active:scale-[0.98]"
+              >
+                Akceptuję
+              </button>
+            </div>
           </div>
         </div>
       )}
