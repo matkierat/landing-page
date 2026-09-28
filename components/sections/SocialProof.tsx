@@ -1,5 +1,11 @@
 import Image from "next/image";
 
+// Domyślnie zdjęcia są kadrowane od środka; tutaj można to nadpisać dla
+// zdjęć, na których obiekt nie jest wyśrodkowany w kadrze.
+const photoPositions: Record<string, string> = {
+  "/testimonials/Paulina-1.jpg": "object-top",
+};
+
 const stories = [
   {
     initial: "E",
@@ -76,7 +82,7 @@ export default function SocialProof() {
                         alt={`${story.name} w akcji`}
                         fill
                         sizes="(max-width: 640px) 45vw, (max-width: 1024px) 22vw, 15vw"
-                        className="object-cover"
+                        className={`object-cover ${photoPositions[photo] ?? "object-center"}`}
                       />
                     </div>
                   ))}
