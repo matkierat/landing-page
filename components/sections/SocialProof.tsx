@@ -4,6 +4,7 @@ import Image from "next/image";
 // zdjęć, na których obiekt nie jest wyśrodkowany w kadrze.
 const photoPositions: Record<string, string> = {
   "/testimonials/Paulina-1.jpg": "object-top",
+  "/testimonials/Paulina-2.jpg": "object-top",
 };
 
 const stories = [
