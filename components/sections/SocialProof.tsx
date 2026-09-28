@@ -33,6 +33,14 @@ const stories = [
       "Z Mateuszem współpracuję od 5 lat i to czysta przyjemność. Jego przekrojowa wiedza z przygotowania motorycznego pozwoliła mi bezpiecznie rozwijać się w kilku sportach: siłownia, boks, kickboxing, BJJ, zawsze z planem dopasowanym do aktualnych celów. Dzięki temu mimo sportów kontaktowych znacznie ograniczyłem kontuzje na macie. Efekt? Szczytowa forma dokładnie na dzień zawodów ADCC, które wygrałem.",
     photos: ["/testimonials/Mikolaj-1.jpeg", "/testimonials/Mikolaj-2.jpeg"],
   },
+  {
+    initial: "P",
+    name: "Paulina Ligarska",
+    discipline: "Lekkoatletyka – multimedalistka Mistrzostw Polski",
+    quote:
+      "Trafiłam do Mateusza z przewlekłym bólem kolana skoczka, później doszły też problemy z achillesami. Trenując siedmiobój ciężko uniknąć kontuzji, jest dużo przeciążeń, ciągle jest coś do naprawy i wzmocnienia. Z pomocą Mateusza nie tylko wyleczyliśmy te urazy, ale też porządnie wzmocniliśmy pod dalszy trening i specyfikę wieloboju. Wszystko opiera się na testach, dzięki którym można zobaczyć słabe punkty i monitorować postępy. A do tego wszystko odbywa się w super atmosferze.",
+    photos: ["/testimonials/Paulina-1.jpg", "/testimonials/Paulina-2.jpg"],
+  },
 ];
 
 export default function SocialProof() {
